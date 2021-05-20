@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view>
+  <view class="slides">
+    <image src="../../images/index-swiper-1.JPG" mode="aspectFit"></image>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <swiper-item wx:for="{{swiperList}}" wx:key="index">
+        <navigator>
+          <image src="{{item.imgSrc}}"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
