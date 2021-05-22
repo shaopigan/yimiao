@@ -6,12 +6,20 @@ Page({
   data: {
     indicatorDots: true,
     autoplay: true,
+      active:1,
     interval: 3000,
     duration: 500,
     swiperList:[
       {id:0,imgSrc:'../../images/index-swiper-1.JPG'},
       {id:1,imgSrc:'../../images/yimiao-index.JPG'}
-    ]
+    ],
+  steps: [
+      {text: '1', desc: '预约',},
+      {text: '2', desc: '签到',},
+      {text: '3', desc: '预检',},
+      {text: '4', desc: '接种',},
+      {text: '5', desc: '留观',}
+  ],
     // motto: 'Hello World',
     // userInfo: {},
     // hasUserInfo: false,
@@ -19,6 +27,23 @@ Page({
     // canIUseGetUserProfile: false,
     // canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
   },
+    methods:{
+        // stepClick(a,b){
+        //     console.log(a,b);
+        // },
+    },
+    // 步骤点击事件
+    stepClick(ev){
+      this.setData({
+          active : ev.detail
+      })
+    },
+  //  预约按钮点击事件
+    gotoOrder(ev){
+        wx.navigateTo({
+            url: '../home/home'
+        })
+    },
   // 事件处理函数
   bindViewTap() {
     wx.navigateTo({

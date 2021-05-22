@@ -1,5 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "van-steps": "../../miniprogram_npm/@vant/weapp/steps/index",
+    "van-button": "../../miniprogram_npm/@vant/weapp/button/index"
+  },
   "navigationBarBackgroundColor": "#00c29d",
   "navigationBarTextStyle": "black",
   "navigationBarTitleText": "健康西安公众服务",

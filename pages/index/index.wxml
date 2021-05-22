@@ -1,7 +1,6 @@
 <!--index.wxml-->
 <view>
   <view class="slides">
-    <image src="../../images/index-swiper-1.JPG" mode="aspectFit"></image>
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
       <swiper-item wx:for="{{swiperList}}" wx:key="index">
         <navigator>
@@ -9,5 +8,15 @@
         </navigator>
       </swiper-item>
     </swiper>
+  </view>
+  <view class="daiban-wrap">
+    <text class="daiban">我的待办</text>
+  </view>
+  <view>
+    <van-steps steps="{{ steps }}" active="{{ active }}" bind:click-step="stepClick" />
+  </view>
+  <view>
+    <text>你还没有任何疫苗预约信息</text>
+    <van-button type="primary" bind:click="gotoOrder">去预约</van-button>
   </view>
 </view>
