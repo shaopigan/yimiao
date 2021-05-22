@@ -44,12 +44,7 @@ Page({
             url: '../home/home'
         })
     },
-  // 事件处理函数
-  bindViewTap() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
+
   onLoad() {
     if (wx.getUserProfile) {
       this.setData({
