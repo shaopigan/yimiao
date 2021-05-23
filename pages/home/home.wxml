@@ -1,6 +1,12 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:key="timeStamp" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log.date}}</text>
-  </block>
+<view class="">
+    <view style="background-color: #00c29d;height: 200rpx">
+
+    </view>
+    <view>
+      <van-cell title="个人信息" is-link />
+      <van-cell title="我的预约" is-link />
+      <van-cell title="接种记录" is-link />
+      <van-cell title="企业注册列表" is-link />
+    </view>
 </view>
