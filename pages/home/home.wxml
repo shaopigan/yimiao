@@ -1,7 +1,16 @@
 <!--logs.wxml-->
 <view class="">
-    <view style="background-color: #02C29D;height: 300rpx">
-
+    <view class="home-avatar">
+        <view style="display: flex;justify-content: space-between">
+            <view style="display: flex">
+                <image src="/images/boy.png" style="width: 120rpx;height: 120rpx;margin: 20rpx 40rpx"></image>
+                <view style="display: flex;flex-direction: column;justify-content: center;color: #ffffff">
+                    <text class="fs11">姓名</text>
+                    <text class="fs11">身份证</text>
+                </view>
+            </view>
+            <van-icon name="setting-o" style="margin-right: 20rpx;color: white"></van-icon>
+        </view>
     </view>
     <view>
       <van-cell title="个人信息" is-link />

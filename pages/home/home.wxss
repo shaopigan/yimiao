@@ -1,8 +1,17 @@
 .log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
+    display: flex;
+    flex-direction: column;
+    padding: 40rpx;
 }
+
 .log-item {
-  margin: 10rpx;
+    margin: 10rpx;
+}
+
+.home-avatar {
+    background-color: #02C29D;
+    height: 180rpx;
+}
+.fs11 {
+    font-size: 11px;
 }

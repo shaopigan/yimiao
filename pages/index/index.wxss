@@ -1,28 +1,35 @@
 /**index.wxss**/
 .slides swiper {
-  height: 250rpx;
+    height: 250rpx;
 }
 
-.slides navigator,.slides image {
-  width: 100%;
-  height: 100%;
+.slides navigator, .slides image {
+    width: 100%;
+    height: 100%;
 }
 
 .steps {
-  margin: 0 20rpx;
+    margin: 0 20rpx;
 }
 
 .daiban {
-  font-size: 35rpx;
-  text-indent: 20rpx;
-  font-weight: bold;
+    font-size: 35rpx;
+    text-indent: 20rpx;
+    font-weight: bold;
 }
+
 .daiban-wrap {
-  padding: 20rpx;
-  margin: 15rpx;
+    padding: 20rpx;
+    margin: 15rpx;
 }
+
 .index-icon-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-botton-icon {
+    font-size: 80rpx;
+    color: #00c29d;
 }
