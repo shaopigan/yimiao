@@ -39,6 +39,18 @@ Page({
             url: '../order/order'
         })
     },
+    // 跳转到我的预约
+    gotoMyOrderList(){
+        wx.navigateTo({
+            url: '../myorderlist/myorderlist'
+        })
+    },
+    // 跳转到接种记录
+    gotoInjectList(){
+        wx.navigateTo({
+            url: '../injectlist/injectlist'
+        })
+    },
 
     onLoad() {
         if (wx.getUserProfile) {

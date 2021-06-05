@@ -33,19 +33,19 @@
     <view>
         <van-row>
             <van-col span="8">
-                <view class="index-icon-text">
+                <view class="index-icon-text" bindtap="gotoOrder">
                     <van-icon name="manager" class="index-botton-icon"></van-icon>
                     <text>疫苗预约</text>
                 </view>
             </van-col>
             <van-col span="8">
-                <view class="index-icon-text">
+                <view class="index-icon-text" bindtap="gotoMyOrderList">
                     <van-icon name="todo-list" class="index-botton-icon"></van-icon>
                     <text>我的预约</text>
                 </view>
             </van-col>
             <van-col span="8">
-                <view class="index-icon-text">
+                <view class="index-icon-text" bindtap="gotoInjectList">
                     <van-icon name="comment-circle" class="index-botton-icon"></van-icon>
                     <text>接种记录</text>
                 </view>

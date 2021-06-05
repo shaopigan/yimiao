@@ -1,2 +1,15 @@
 <!--pages/order/order.wxml-->
-<text>pages/order/order.wxml</text>
+<view>
+    <view>
+        <image src="/images/order_top.JPG" mode="aspectFit" style="width: 100%;height: 270rpx"></image>
+    </view>
+    <view style="text-align: center">
+        <text style="text-align: center">服务流程</text>
+    </view>
+    <view style="padding: 20rpx">
+        <image src="/images/order-center.JPG" mode="aspectFit" style="width: 100%;height: 270rpx"></image>
+    </view>
+    <view class="person-btn">
+        个人新冠疫苗接种
+    </view>
+</view>
