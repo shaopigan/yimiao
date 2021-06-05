@@ -7,7 +7,9 @@
     "pages/company/company",
     "pages/myorderlist/myorderlist",
     "pages/injectlist/injectlist",
-    "pages/setting/setting"
+    "pages/setting/setting",
+    "pages/hospitalist/hospitalist",
+    "pages/companyregister/companyregister"
   ],
   "window": {
     "backgroundTextStyle": "light",

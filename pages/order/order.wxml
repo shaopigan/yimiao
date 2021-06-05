@@ -1,15 +1,18 @@
 <!--pages/order/order.wxml-->
 <view>
     <view>
-        <image src="/images/order_top.JPG" mode="aspectFit" style="width: 100%;height: 270rpx"></image>
+        <image src="/images/order_top.jpg" mode="aspectFit" style="width: 100%;height: 270rpx"></image>
     </view>
     <view style="text-align: center">
-        <text style="text-align: center">服务流程</text>
+        <text style="text-align: center;font-weight: bold">服务流程</text>
     </view>
     <view style="padding: 20rpx">
-        <image src="/images/order-center.JPG" mode="aspectFit" style="width: 100%;height: 270rpx"></image>
+        <image src="/images/order-center.jpg" mode="aspectFit" style="width: 100%;height: 220rpx"></image>
     </view>
-    <view class="person-btn">
+    <view class="person-btn bg-orange" bindtap="gotoHopitalList">
         个人新冠疫苗接种
+    </view>
+    <view class="person-btn bg-perple" bindtap="gotoCompanyForm">
+        企事业单位员工绑定
     </view>
 </view>

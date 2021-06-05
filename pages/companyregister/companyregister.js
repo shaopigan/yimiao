@@ -1,4 +1,4 @@
-// pages/order/order.js
+// pages/companyregister/companyregister.js
 Page({
 
   /**
@@ -6,24 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  /*
-  * 跳转到预约医院列表
-  * */
-  gotoHopitalList(){
-    wx.navigateTo({
-      url: '../hospitalist/hospitalist'
-    })
-  },
-
-  /*
-  * 跳转到企业注册页面
-  * */
-  gotoCompanyForm(){
-      wx.navigateTo({
-          url: '../companyregister/companyregister'
-      })
   },
 
   /**
